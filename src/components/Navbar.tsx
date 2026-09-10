@@ -80,17 +80,26 @@ export default function Navbar({ activeHref }: NavbarProps) {
         <Link
           href="/"
           onClick={closeMenu}
-          className="relative block h-12 w-40 shrink-0 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a] sm:h-14 sm:w-48 lg:h-16 lg:w-56"
+          className="flex min-w-0 shrink-0 items-center gap-3 rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
           aria-label="NAIT Computer Technology Club home"
         >
           <Image
             src="/club_logo_transparent.png"
             alt="NAIT Computer Technology Club logo"
-            fill
+            width={64}
+            height={64}
             priority
-            sizes="(max-width: 639px) 160px, (max-width: 1023px) 192px, 224px"
-            className="object-contain object-left"
+            sizes="64px"
+            className="h-12 w-12 shrink-0 object-contain sm:h-14 sm:w-14 lg:h-16 lg:w-16"
           />
+          <span className="hidden min-w-0 flex-col sm:flex">
+            <span className="text-xs font-bold leading-none tracking-[0.2em] sm:text-sm">
+              NAIT
+            </span>
+            <span className="mt-1 whitespace-nowrap text-sm font-bold leading-tight tracking-[0.15em] sm:text-base lg:text-lg">
+              COMPUTER TECHNOLOGY CLUB
+            </span>
+          </span>
         </Link>
 
         <div className="hidden items-center lg:flex lg:w-4/5 lg:justify-end">
