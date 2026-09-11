@@ -56,7 +56,7 @@ export function AboutSection() {
               ))}
             </div>
 
-            <div className="space-y-7 text-muted-foreground text-shadow-white">
+            <div className="space-y-7 text-shadow-white">
               <h3 className="text-4xl font-bold md:text-5xl">
                 Our Vision
               </h3>
@@ -74,7 +74,7 @@ export function AboutSection() {
           </div>
 
           <div className="order-first flex flex-col gap-16 md:order-none">
-            <div className="space-y-7 text-muted-foreground">
+            <div className="space-y-7">
               <h3 className="text-4xl font-bold md:text-5xl text-shadow-white">
                 About Us
               </h3>
