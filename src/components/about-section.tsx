@@ -56,18 +56,18 @@ export function AboutSection() {
               ))}
             </div>
 
-            <div className="space-y-7 text-shadow-white">
+            <div className="space-y-7 text-white">
               <h3 className="text-4xl font-bold md:text-5xl">
                 Our Vision
               </h3>
-              <p className="text-lg font-medium md:text-xl text-shadow-white">
+              <p className="text-lg font-medium md:text-xl text-white">
                 We believe that everyone should be able to build their own
                 solutions, regardless of their technical background.
               </p>
               {/* <p>
                 From LAN parties to networking projects, collaborative study sessions, and industry meetings, we offer a spectrum of activities aimed at not just expanding technical knowledge but also nurturing an inclusive community.
               </p> */}
-              <p className="text-lg font-medium md:text-xl text-shadow-white">
+              <p className="text-lg font-medium md:text-xl text-white">
                 Want to join the team? We are always looking for new executives, especially for next year. Apply by filling out the Google Form and we will contact you soon.
               </p>
             </div>
@@ -75,13 +75,13 @@ export function AboutSection() {
 
           <div className="order-first flex flex-col gap-16 md:order-none">
             <div className="space-y-7">
-              <h3 className="text-4xl font-bold md:text-5xl text-shadow-white">
+              <h3 className="text-4xl font-bold md:text-5xl text-white">
                 About Us
               </h3>
-              <p className="text-lg font-medium md:text-xl text-shadow-white">
+              <p className="text-lg font-medium md:text-xl text-white">
                 The Computer Technology Club at NAIT is a dynamic community focused on fostering a vibrant environment for tech enthusiasts. Our club hosts an array of engaging events that cater to diverse interests within the tech sphere.
               </p>
-              <p className="text-lg font-medium md:text-xl text-shadow-white">
+              <p className="text-lg font-medium md:text-xl text-white">
                 From LAN parties to networking projects, collaborative study sessions, and industry meetings, we offer a spectrum of activities aimed at not just expanding technical knowledge but also nurturing an inclusive community.
               </p>
               {/* <p>
