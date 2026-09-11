@@ -57,38 +57,35 @@ export function AboutSection() {
             </div>
 
             <div className="space-y-7 text-muted-foreground">
-              <h3 className="text-4xl font-medium text-foreground md:text-5xl">
+              <h3 className="text-4xl font-bold text-foreground md:text-5xl">
                 Our Vision
               </h3>
-              <p>
+              <p className="text-lg font-medium text-foreground md:text-xl">
                 The Computer Technology Club at NAIT is a dynamic community focused on fostering a vibrant environment for tech enthusiasts. Our club hosts an array of engaging events that cater to diverse interests within the tech sphere.
               </p>
-              <p>
+              {/* <p>
                 From LAN parties to networking projects, collaborative study sessions, and industry meetings, we offer a spectrum of activities aimed at not just expanding technical knowledge but also nurturing an inclusive community.
-              </p>
-              <p>
-                Our team is made up of talented individuals who are passionate
-                about creating tools that empower users to build their own
-                solutions with ease. We are dedicated to helping you achieve
-                your goals.
+              </p> */}
+              <p className="text-lg font-medium text-foreground md:text-xl">
+                We aim to provide a casual environment for tech enthusiasts to hang out and share in our common interest to help make our time at NAIT a fun and enjoyable experience. Come out to our weekly events! We look forward to seeing you there!
               </p>
             </div>
           </div>
 
           <div className="order-first flex flex-col gap-16 md:order-none">
             <div className="space-y-7 text-muted-foreground">
-              <h3 className="text-4xl font-medium text-foreground md:text-5xl">
+              <h3 className="text-4xl font-bold text-foreground md:text-5xl">
                 About Us
               </h3>
-              <p>
+              <p className="text-lg font-medium text-foreground md:text-xl">
                 The Computer Technology Club at NAIT is a dynamic community focused on fostering a vibrant environment for tech enthusiasts. Our club hosts an array of engaging events that cater to diverse interests within the tech sphere.
               </p>
-              <p>
+              <p className="text-lg font-medium text-foreground md:text-xl">
                 From LAN parties to networking projects, collaborative study sessions, and industry meetings, we offer a spectrum of activities aimed at not just expanding technical knowledge but also nurturing an inclusive community.
               </p>
-              <p>
+              {/* <p>
                 We aim to provide a casual environment for tech enthusiasts to hang out and share in our common interest to help make our time at NAIT a fun and enjoyable experience. Come out to our weekly events! We look forward to seeing you there!
-              </p>
+              </p> */}
               {/* <p>
                 We believe that everyone should be able to build their own
                 solutions, regardless of their technical background.
