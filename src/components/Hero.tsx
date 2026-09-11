@@ -113,7 +113,7 @@ export default function HeroCarousel() {
   };
 
   return (
-    <section className="w-full overflow-hidden px-0 py-16 sm:px-6 md:py-24 bg-[#d0d7e1] ">
+    <section className="w-full overflow-hidden px-0 py-16 sm:px-6 md:py-24 bg-[#f3f5f9] ">
       <div className="mx-auto max-w-[50rem] ">
         <div
           className="relative h-[15rem] sm:h-[15rem] md:h-[30rem] lg:h-[36rem]"
