@@ -42,7 +42,7 @@ function AboutImage({
 
 export function AboutSection() {
   return (
-    <section className="w-full px-6 py-20 md:px-8 md:py-28">
+    <section className="w-full px-6 py-20 md:px-8 md:py-28 bg-[#1a2d4a]">
       <div className="mx-auto max-w-5xl">
         {/* <h2 className="mb-12 text-4xl font-medium tracking-tight text-foreground md:text-5xl">
           About Us
@@ -61,13 +61,14 @@ export function AboutSection() {
                 Our Vision
               </h3>
               <p className="text-lg font-medium text-foreground md:text-xl">
-                The Computer Technology Club at NAIT is a dynamic community focused on fostering a vibrant environment for tech enthusiasts. Our club hosts an array of engaging events that cater to diverse interests within the tech sphere.
+                We believe that everyone should be able to build their own
+                solutions, regardless of their technical background.
               </p>
               {/* <p>
                 From LAN parties to networking projects, collaborative study sessions, and industry meetings, we offer a spectrum of activities aimed at not just expanding technical knowledge but also nurturing an inclusive community.
               </p> */}
               <p className="text-lg font-medium text-foreground md:text-xl">
-                We aim to provide a casual environment for tech enthusiasts to hang out and share in our common interest to help make our time at NAIT a fun and enjoyable experience. Come out to our weekly events! We look forward to seeing you there!
+                Want to join the team? We are always looking for new executives, especially for next year. Apply by filling out the Google Form and we will contact you soon.
               </p>
             </div>
           </div>
