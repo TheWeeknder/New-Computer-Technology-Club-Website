@@ -4,7 +4,7 @@ const events = [
   "Industry Connections",
   "Networking Events",
   "Studying With Peers",
-  "Computer Projects Showcase",
+  "Speaker Events",
   "LAN Parties",
   "And more!",
 ];
