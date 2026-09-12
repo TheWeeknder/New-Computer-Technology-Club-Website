@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 
 const navigation = [
-  { label: 'About', href: '/about' },
+  { label: 'About', href: '#about' },
   { label: 'Events & Calendar', href: '/events' },
   { label: 'Get Involved!', href: '/get-involved' },
 ]

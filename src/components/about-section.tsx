@@ -33,6 +33,7 @@ function AboutImage({
 }) {
   return (
     <div
+    
       className={`relative aspect-[2/1.5] overflow-hidden rounded-2xl ${className}`}
     >
       <Image src={src} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
@@ -42,7 +43,9 @@ function AboutImage({
 
 export function AboutSection() {
   return (
-    <section className="w-full px-6 py-20 md:px-8 md:py-28 bg-[#1a2d4a]">
+    <section 
+      id="about"
+      className="w-full scroll-mt-24 px-6 py-20 md:px-8 md:py-28 bg-[#1a2d4a]">
       <div className="mx-auto max-w-5xl">
         {/* <h2 className="mb-12 text-4xl font-medium tracking-tight text-foreground md:text-5xl">
           About Us
