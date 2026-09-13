@@ -1,12 +1,12 @@
 import  Hero  from '@/components/Hero';
-import About from '@/components/About';
+import AboutSection from "@/components/About-section";
 import AwardSection from "@/components/award-section";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <About />
+      <AboutSection />
       <AwardSection />
     </main>
   );
