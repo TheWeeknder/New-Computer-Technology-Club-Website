@@ -1,5 +1,5 @@
 import  Hero  from '@/components/Hero';
-import AboutSection from "@/components/About-section";
+import { AboutSection } from "@/components/About-section";
 import AwardSection from "@/components/award-section";
 import GoogleCalendar from "@/components/Google-calendar";
 
