@@ -24,8 +24,8 @@ export default function AwardEventsSection() {
 
         <div className="mt-7 max-w-5xl text-[#1a2d4a]">
           <h3 className="text-4xl font-bold md:text-5xl">
-                Check out our events!
-        </h3>
+          Check out our events!
+          </h3>
 
           <p className="mt-5 text-base leading-relaxed font-medium md:text-2xl pb-5">
             The Computer Technology Club holds a variety of events throughout
