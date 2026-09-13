@@ -13,7 +13,7 @@ export default function GoogleCalendar() {
             View our Upcoming Events! 📅
           </h2>
           <p className="mt-4 text-md text-[#f3f5f9]">
-            Click on an event to view or add it to your calendar.
+            Click on an event to view details or add it to your calendar.
           </p>
         </div>
 
