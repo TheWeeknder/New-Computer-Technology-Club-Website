@@ -14,15 +14,15 @@ const images: HeroImage[] = [
     alt: "Mountain landscape beside a flowing river",
   },
   {
-    src: "/club-image-6.jpg",
+    src: "/club-image-9.png",
     alt: "Mountain valley with hikers",
   },
   {
-    src: "/club-image-2.jpg",
+    src: "/club-image-6.jpg",
     alt: "Vintage car beside a mountain road",
   },
   {
-    src: "/club-image-1.jpg",
+    src: "/club-image-2.jpg",
     alt: "Snow-covered mountain landscape",
   },
 //   {

@@ -20,7 +20,7 @@ export default function InvolvementSection() {
             Want to join the team? We are always looking for new executives,
             especially for next year. Apply by filling out the{" "}
             <a
-              href="YOUR_GOOGLE_FORM_URL"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeAjxbgryuGYTkFh70rgGAo2m1e-Evrlp3yPFeXIP53nkFl0Q/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium underline underline-offset-4 hover:text-slate-700"
@@ -74,7 +74,7 @@ export default function InvolvementSection() {
             id="involvement-heading"
             className="font-serif text-4xl font-bold leading-[1.05] tracking-tight text-black sm:text-5xl"
           >
-            Placeholder
+            Sponsors
           </h1>
 
           <p className="mt-5 max-w-xl text-base leading-relaxed sm:text-xl">
