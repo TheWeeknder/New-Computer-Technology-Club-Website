@@ -2,22 +2,22 @@ import Image from "next/image";
 
 const leftImages = [
   {
-    src: "/cat-exterior.jpg",
+    src: "/club-image-4.jpg",
     alt: "Modern architectural building beside a pool",
   },
   {
-    src: "/main-campus.jpg",
+    src: "/club-image-3.jpg",
     alt: "Creator working on a laptop at a desk",
   },
 ];
 
 const rightImages = [
   {
-    src: "/1586L_0732_050714.jpg",
+    src: "/club-image-7.jpg",
     alt: "Team collaborating in a modern office",
   },
   {
-    src: "/NAIT_MainCampus_2000x745.jpg",
+    src: "/club-image-8.jpg",
     alt: "Developer working at a desktop computer",
   },
 ];

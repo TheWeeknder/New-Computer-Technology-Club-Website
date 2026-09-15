@@ -10,19 +10,19 @@ type HeroImage = {
 
 const images: HeroImage[] = [
   {
-    src: "/main-campus.jpg",
+    src: "/club-image-6.jpg",
     alt: "Mountain landscape beside a flowing river",
   },
   {
-    src: "/NAIT_MainCampus_2000x745.jpg",
+    src: "/club-image-5.jpg",
     alt: "Mountain valley with hikers",
   },
   {
-    src: "/cat-exterior.jpg",
+    src: "/club-image-2.jpg",
     alt: "Vintage car beside a mountain road",
   },
   {
-    src: "/1586L_0732_050714.jpg",
+    src: "/club-image-1.jpg",
     alt: "Snow-covered mountain landscape",
   },
 //   {
