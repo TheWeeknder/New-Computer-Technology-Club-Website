@@ -8,7 +8,7 @@ export default function GoogleCalendar() {
         <div className="mb-6 text-center py-4">
           <h2
             id="calendar-heading"
-            className="text-4xl font-bold md:text-5xl"
+            className="text-4xl font-bold md:text-5xl text-[#f3f5f9]"
           >
             View our Upcoming Events! 📅
           </h2>
