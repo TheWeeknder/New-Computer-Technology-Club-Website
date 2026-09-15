@@ -6,12 +6,12 @@ export default function GoogleCalendar() {
     >
       <div className="mx-auto w-full max-w-7xl">
         <div className="mb-6 text-center py-4">
-          <h2
-            id="calendar-heading"
-            className="text-4xl font-bold md:text-5xl text-[#f3f5f9]"
+          <h1
+            id="upcoming-heading"
+            className="font-serif text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl"
           >
-            View our Upcoming Events! 📅
-          </h2>
+            View Our Upcoming Events! 📅
+          </h1>
           <p className="mt-4 text-md text-[#f3f5f9]">
             Click on an event to view details or add it to your calendar.
           </p>

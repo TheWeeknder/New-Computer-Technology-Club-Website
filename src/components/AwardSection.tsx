@@ -23,9 +23,12 @@ export default function AwardEventsSection() {
         />
 
         <div className="mt-7 max-w-5xl text-[#1a2d4a]">
-          <h3 className="text-4xl font-bold md:text-5xl">
-          What do we host?
-          </h3>
+          <h1
+            id="host-heading"
+            className="font-serif text-5xl font-bold leading-[1.05] tracking-tight text-[#1a2d4a] sm:text-6xl"
+          >
+            What Do We Host?
+          </h1>
 
           <p className="mt-5 text-base leading-relaxed font-medium md:text-2xl pb-5">
             The Computer Technology Club hosts a variety of events throughout

@@ -60,9 +60,13 @@ export function AboutSection() {
             </div>
 
             <div className="space-y-7 text-white">
-              <h3 className="text-4xl font-bold md:text-5xl">
-                Our Vision
-              </h3>
+              <h1
+                id="vision-heading"
+                className="font-serif text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl"
+              >
+                Our
+                Vision
+              </h1>
               <p className="text-lg font-medium md:text-xl text-white">
                 We believe that everyone should be able to build their own
                 solutions, regardless of their technical background.
@@ -78,9 +82,13 @@ export function AboutSection() {
 
           <div className="order-first flex flex-col gap-16 md:order-none">
             <div className="space-y-7">
-              <h3 className="text-4xl font-bold md:text-5xl text-white">
-                About Us
-              </h3>
+              <h1
+                id="about-heading"
+                className="font-serif text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl"
+              >
+                About
+                Us
+              </h1>
               <p className="text-lg font-medium md:text-xl text-white">
                 The Computer Technology Club at NAIT is a dynamic community focused on fostering a vibrant environment for tech enthusiasts. Our club hosts an array of engaging events that cater to diverse interests within the tech sphere.
               </p>
