@@ -5,9 +5,9 @@ import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 
 const navigation = [
-  { label: 'About', href: '#about' },
+  { label: 'About', href: '/#about' },
   { label: 'Events & Calendar', href: '/events' },
-  { label: 'Get Involved!', href: '/get-involved' },
+  { label: 'Get Involved!', href: '/involvement' },
 ]
 
 type NavbarProps = {
@@ -93,11 +93,11 @@ export default function Navbar({ activeHref }: NavbarProps) {
             className="h-12 w-12 shrink-0 object-contain sm:h-14 sm:w-14 lg:h-16 lg:w-16"
           />
           <span className="hidden min-w-0 flex-col sm:flex">
-            <span className="text-xs font-bold leading-none tracking-[0.1em] xs:text-xs">
-              NORTHERN ALBERTA INSTITUTE OF TECHNOLOGY
-            </span>
             <span className="mt-1 whitespace-nowrap font-bold leading-tight tracking-[0.05em] text-xl sm:text-2xl xl:text-3xl">
               COMPUTER TECHNOLOGY CLUB
+            </span>
+            <span className="text-xs font-bold leading-none tracking-[0.1em] xs:text-xs">
+              NORTHERN ALBERTA INSTITUTE OF TECHNOLOGY
             </span>
           </span>
         </Link>

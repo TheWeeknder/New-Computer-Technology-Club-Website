@@ -6,10 +6,10 @@ export default function Footer() {
           <p className="text-white">&copy; {new Date().getFullYear()} CTC Club. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:underline text-white">
-              Privacy
+              Home
             </a>
             <a href="#" className="hover:underline text-white">
-              Terms
+              About
             </a>
             <a href="#" className="hover:underline text-white">
               Contact

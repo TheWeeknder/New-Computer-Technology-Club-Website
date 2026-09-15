@@ -1,13 +1,15 @@
 import  Hero  from '@/components/Hero';
-import About from '@/components/About';
-import AwardSection from "@/components/award-section";
+import  AboutSection from "@/components/AboutSection";
+import AwardSection from "@/components/AwardSection";
+import GoogleCalendar from "@/components/Google-calendar";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <About />
+      <AboutSection />
       <AwardSection />
+      <GoogleCalendar />
     </main>
   );
 }
