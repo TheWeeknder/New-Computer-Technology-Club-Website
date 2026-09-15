@@ -10,11 +10,11 @@ type HeroImage = {
 
 const images: HeroImage[] = [
   {
-    src: "/club-image-6.jpg",
+    src: "/club-image-5.jpg",
     alt: "Mountain landscape beside a flowing river",
   },
   {
-    src: "/club-image-5.jpg",
+    src: "/club-image-6.jpg",
     alt: "Mountain valley with hikers",
   },
   {
