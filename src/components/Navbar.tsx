@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from 'react'
 const navigation = [
   { label: 'About', href: '/#about' },
   { label: 'Events & Calendar', href: '/events' },
-  { label: 'Get Involved!', href: '/get-involved' },
+  { label: 'Get Involved!', href: '/involvement' },
 ]
 
 type NavbarProps = {
