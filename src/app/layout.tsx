@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CTC Club",
-  description: "Official website of the CTC Club",
+  title: "CTC",
+  description: "The official website of the Computer Technology Club at NAIT",
 };
 
 export default function RootLayout({
