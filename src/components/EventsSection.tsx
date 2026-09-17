@@ -4,6 +4,7 @@ export default function EventsSection() {
   return (
     <section
       aria-labelledby="events-heading"
+      id="events"
       className="w-full bg-white px-6 py-16 sm:px-10 lg:px-16"
     >
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 lg:grid-cols-[0.85fr_1.65fr] lg:gap-20">
