@@ -31,7 +31,7 @@ export default function ContactPage() {
       <section className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
         <div className="flex flex-col justify-between">
           <div>
-            <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">
+            <h1 className="font-serif text-5xl font-bold leading-[1.05] tracking-tight text-slate-800 sm:text-6xl">
               Contact Us
             </h1>
 
