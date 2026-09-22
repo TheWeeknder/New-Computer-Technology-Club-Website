@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <AwardSection />
-      {/* <GoogleCalendar /> */}
+      <GoogleCalendar />
     </main>
   );
 }
