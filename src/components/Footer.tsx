@@ -48,7 +48,7 @@ export default function Footer() {
             <Link
               href="/"
               onClick={handleHomeClick}
-              className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
+              className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base text-white  font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
             >
               Home
             </Link>
@@ -56,7 +56,7 @@ export default function Footer() {
             <Link
               href="/#about"
               onClick={handleAboutClick}
-              className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
+              className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base text-white font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
             >
               About
             </Link>
@@ -64,7 +64,7 @@ export default function Footer() {
             <Link
               href="/events"
               onClick={handleEventsSectionClick}
-              className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
+              className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base text-white font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
             >
               Events & Calendar
             </Link>
