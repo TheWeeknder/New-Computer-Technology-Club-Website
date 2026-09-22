@@ -10,7 +10,7 @@ export default function GoogleCalendar() {
             id="upcoming-heading"
             className="font-serif text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl"
           >
-            View Our Upcoming Events! 📅
+            View Our Upcoming Events!
           </h1>
           <p className="mt-4 text-md text-[#f3f5f9]">
             Click on an event to view details or add it to your calendar.
