@@ -4,6 +4,7 @@ export default function InvolvementSection() {
   return (
     <section
       aria-labelledby="involvement-heading"
+      id="events"
       className="flex min-h-screen w-full flex-col bg-white px-6 py-10 sm:px-10 lg:px-16"
     >
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-14">

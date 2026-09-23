@@ -25,16 +25,16 @@ export default function Footer() {
     // If not on homepage, let Next.js navigate to /#about normally
   }
 
-    const handleEventsSectionClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    if (isHome) {
-      e.preventDefault()
-      const aboutSection = document.getElementById('events-section')
-      if (aboutSection) {
-        aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      }
-    }
-    // If not on homepage, let Next.js navigate to /#about normally
-  }
+    // const handleEventsSectionClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // if (isHome) {
+    //   e.preventDefault()
+    //   const eventSection = document.getElementById('involvement')
+
+    //   if (eventSection) {
+    //     eventSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    //   }
+    // }
+    // // If not on homepage, let Next.js navigate to /#about normally
 
   return (
     <footer className="border-t border-white bg-[#1a2d4a]">
@@ -63,7 +63,6 @@ export default function Footer() {
 
             <Link
               href="/events"
-              onClick={handleEventsSectionClick}
               className="group relative inline-flex min-h-11 items-center whitespace-nowrap rounded-sm px-1 text-base text-white font-medium transition-colors duration-150 hover:text-white/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#1a2d4a]"
             >
               Events & Calendar
